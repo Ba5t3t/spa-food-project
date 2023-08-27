@@ -1,3 +1,12 @@
+import { Link } from "react-router-dom/cjs/react-router-dom";
+
 export function Contact() {
-  return <h1>Contact page</h1>;
+  return (
+    <>
+      <h1>Contacts</h1>
+      <Link to='/' className='btn'>
+        Home
+      </Link>
+    </>
+  );
 }

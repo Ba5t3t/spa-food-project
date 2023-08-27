@@ -1,19 +1,22 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
 export function CategoryItem(props) {
-  const { idCategory, strMeal, strCategory, strMealThumb, strInstructions } =
+  const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } =
     props;
 
   return (
-    <div class='card'>
-      <div class='card-image'>
-        <img src={strMealThumb} />
-        <span class='card-title'>{idCategory}</span>
-        <a class='btn-floating halfway-fab waves-effect waves-light red'>
-          <i class='material-icons'>add</i>
-        </a>
+    <div className='card'>
+      <div className='card-image'>
+        <img src={strCategoryThumb} alt={strCategory} />
+        <span className='card-title'>{strCategory}</span>
       </div>
-      <div class='card-content'>
-        <p>{strMeal}</p>
-        <p>{strInstructions}</p>
+      <div className='card-content'>
+        <p>{strCategoryDescription.slice(0, 60)}...</p>
+      </div>
+      <div className='card-action'>
+        <Link to={`/category/${idCategory}`} className='btn'>
+          Watch category
+        </Link>
       </div>
     </div>
   );
