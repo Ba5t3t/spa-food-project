@@ -6,6 +6,7 @@ import { Contact } from './pages/Contact';
 import { About } from './pages/About';
 import { Home } from './pages/Home';
 import { NotFound } from './pages/NotFound';
+import { Category } from './components/Category';
 
 
 
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/category" component={Category} />
             <Route component={NotFound} />
           </Switch>
         
