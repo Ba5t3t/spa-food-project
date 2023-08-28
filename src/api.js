@@ -1,16 +1,16 @@
-import { API_URL } from "./config";
+import { API_URL } from './config';
 
-export const getMealByID = async (idMeal) => {
-    const response = await fetch(API_URL + "lookup.php?i=" + idMeal);
-    return await response.json();
+export const getMealByID = async (id) => {
+  const response = await fetch(API_URL + 'lookup.php?i=' + id);
+  return await response.json();
 };
 
 export const getAllCategories = async () => {
-    const response = await fetch(API_URL + "categories.php");
-    return await response.json();
+  const response = await fetch(API_URL + 'categories.php');
+  return await response.json();
 };
 
-export const getFilteredCategory = async (categoryName) => {
-    const response = await fetch(API_URL + "filter.php?c=" + categoryName);
-    return await response.json();
+export const getFilteredCategory = async (meal) => {
+  const response = await fetch(API_URL + 'filter.php?c=' + meal);
+  return await response.json();
 };

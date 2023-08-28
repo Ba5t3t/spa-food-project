@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom/cjs/react-router-dom";
+import { Link } from 'react-router-dom';
 
 export function Contact() {
   return (
     <>
       <h1>Contacts</h1>
-      <Link to='/' className='btn'>
+      <Link to="/" className="btn">
         Home
       </Link>
     </>
