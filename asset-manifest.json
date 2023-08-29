@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/spa-food-project/static/css/main.78cf49e8.chunk.css",
+    "main.js": "/spa-food-project/static/js/main.d68131cb.chunk.js",
+    "main.js.map": "/spa-food-project/static/js/main.d68131cb.chunk.js.map",
+    "runtime-main.js": "/spa-food-project/static/js/runtime-main.73807606.js",
+    "runtime-main.js.map": "/spa-food-project/static/js/runtime-main.73807606.js.map",
+    "static/js/2.ef67df7e.chunk.js": "/spa-food-project/static/js/2.ef67df7e.chunk.js",
+    "static/js/2.ef67df7e.chunk.js.map": "/spa-food-project/static/js/2.ef67df7e.chunk.js.map",
+    "index.html": "/spa-food-project/index.html",
+    "static/css/main.78cf49e8.chunk.css.map": "/spa-food-project/static/css/main.78cf49e8.chunk.css.map",
+    "static/js/2.ef67df7e.chunk.js.LICENSE.txt": "/spa-food-project/static/js/2.ef67df7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73807606.js",
+    "static/js/2.ef67df7e.chunk.js",
+    "static/css/main.78cf49e8.chunk.css",
+    "static/js/main.d68131cb.chunk.js"
+  ]
+}
