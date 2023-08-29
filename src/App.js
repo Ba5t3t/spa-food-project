@@ -14,7 +14,7 @@ import { Recipe } from './pages/Recipe';
 function App() {
   return (
     <>
-      <Router basename='/react-food'>
+      <Router basename='/spa-food-project'>
         <Header />
         <main className="container content">
         
