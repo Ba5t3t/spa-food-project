@@ -23,7 +23,7 @@ export function Recipe() {
           {recipe.strArea ? <h6>Area: {recipe.strArea}</h6> : null}
           <p>{recipe.strInstructions}</p>
 
-          <table className="highlight">
+          <table className="centered">
             <thead>
               <tr>
                 <th>Ingredient</th>
@@ -54,7 +54,7 @@ export function Recipe() {
                 src={`https://www.youtube.com/embed/${recipe.strYoutube.slice(
                   -11
                 )}`}
-                allowfullscreen
+                allowFullScreen
               />
             </div>
           ) : null}

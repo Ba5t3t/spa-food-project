@@ -5,14 +5,13 @@ import { Preloader } from '../components/Preloader';
 import { MealsList } from '../components/MealsList';
 
 export function Category() {
-  const { meal } = useParams();
-
+  const { name } = useParams();
   const [meals, setMeals] = useState([]);
   const { goBack } = useHistory();
 
   useEffect(() => {
-    getFilteredCategory(meal).then((data) => setMeals(data.meals));
-  }, [meal]);
+    getFilteredCategory(name).then((data) => setMeals(data.meals));
+  }, [name]);
 
   return (
     <>
